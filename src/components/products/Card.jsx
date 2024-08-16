@@ -80,7 +80,7 @@ function Card() {
                       <>
                         <Icon
                           icon="heroicons-solid:heart"
-                          className="h-6 w-6 text-red-500"
+                          className="h-6 w-6 text-red-500 cursor-pointer"
                           onClick={() => {
                             setLike(
                               like.filter((item) => item.id !== product.id)
@@ -92,7 +92,7 @@ function Card() {
                       <>
                         <Icon
                           icon="heroicons-outline:heart"
-                          className="h-6 w-6 text-gray-500"
+                          className="h-6 w-6 text-gray-500 cursor-pointer"
                           onClick={() => {
                             setLike([...like, product]);
                           }}
@@ -103,7 +103,7 @@ function Card() {
                     {!isInCart(cart, product) ? (
                       <>
                         <ShoppingCartIcon
-                          className="h-6 w-6"
+                          className="h-6 w-6 cursor-pointer"
                           onClick={() => {
                             setCart([...cart, product]);
                             toast.success("Added to cart");

@@ -25,7 +25,7 @@ function Navber() {
       <div className="px-6 pt-6 pb-4 shadow-lg lg:px-8 bg-black sticky top-0 z-[9999]">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5 cursor-pointer">
               <span className="text-white font-Lustria text-xl">
                 Miyazaki Hayao
               </span>
@@ -37,7 +37,7 @@ function Navber() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-bold leading-6 px-3 py-2 text-white flex flex-row items-center gap-x-2 rounded-md hover:bg-slate-50/20"
+                  className="text-sm font-bold leading-6 px-3 py-2 text-white flex flex-row items-center gap-x-2 rounded-md hover:bg-slate-50/20 cursor-pointer"
                 >
                   <ShoppingCartIcon className="h-6 w-6" />
 
@@ -48,7 +48,7 @@ function Navber() {
               ))}
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 cursor-pointer"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -61,7 +61,7 @@ function Navber() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-bold leading-6 px-3 py-2 text-white flex flex-row items-center gap-x-2 rounded-md hover:bg-slate-50/20"
+                className="text-sm font-bold leading-6 px-3 py-2 text-white flex flex-row items-center gap-x-2 rounded-md hover:bg-slate-50/20 cursor-pointer"
               >
                 <ShoppingCartIcon className="h-6 w-6" />
                 {item.name}
@@ -86,7 +86,7 @@ function Navber() {
 
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-gray-700 cursor-pointer"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -103,7 +103,7 @@ function Navber() {
                         Router.push(item.href);
                         setMobileMenuOpen(false);
                       }}
-                      className="text-sm font-bold mt-5 w-fit leading-6 px-3 py-2 text-white flex flex-row items-center gap-x-2 rounded-md hover:bg-slate-50/20"
+                      className="text-sm font-bold mt-5 w-fit leading-6 px-3 py-2 text-white flex flex-row items-center gap-x-2 rounded-md hover:bg-slate-50/20 cursor-pointer"
                     >
                       <ShoppingCartIcon className="h-6 w-6" />
                       {item.name}

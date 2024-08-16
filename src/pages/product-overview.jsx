@@ -239,7 +239,7 @@ export default function Example() {
                       >
                         <Icon
                           icon="heroicons-solid:heart"
-                          className="h-6 w-6 text-red-600"
+                          className="h-6 w-6 text-red-600 cursor-pointer"
                           onClick={() => {
                             setLike(
                               like.filter((item) => item.id !== product.id)
@@ -257,7 +257,7 @@ export default function Example() {
                       >
                         <Icon
                           icon="heroicons-outline:heart"
-                          className="h-6 w-6 text-gray-500"
+                          className="h-6 w-6 text-gray-500 cursor-pointer"
                           onClick={() => {
                             setLike([...like, product]);
                           }}
@@ -376,7 +376,7 @@ export default function Example() {
                       </button>
                     ) : (
                       <button
-                        className="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 py-2 px-8 text-sm font-medium text-gray-900 hover:bg-black hover:text-white w-full"
+                        className="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 py-2 px-8 text-sm font-medium text-gray-900 hover:bg-black hover:text-white w-full cursor-pointer"
                         onClick={(e) => {
                           e.preventDefault();
                           setCart([...cart, product]);
