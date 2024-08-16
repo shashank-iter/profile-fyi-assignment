@@ -151,11 +151,10 @@ export default function Example() {
         <main className="mx-auto max-w-2xl py-2 px-4 sm:py-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="border-b border-gray-200 pb-10">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 font-Lustria">
-              The Miyazaki Collection
+              Miyazaki Collection
             </h1>
             <p className="mt-4 text-base text-gray-500 font-Lato">
-              Checkout out the latest release of Basic Tees, new and improved
-              with four openings!
+              Beyond fashion, a lifestyle.
             </p>
           </div>
 
