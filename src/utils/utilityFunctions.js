@@ -33,7 +33,7 @@ export function calculateDiscount(cart) {
 // function to calculate discount due to promo code:
 export function calculatePromoDiscount(cart, promoCode) {
   const total = calculateTotal(cart);
-  if (promoCode === "OFF50") {
+  if (promoCode === "OFF15") {
     return (total * 0.15).toFixed(2);
   }
   return 0;

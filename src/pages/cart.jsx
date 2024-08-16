@@ -211,7 +211,7 @@ export default function Cart() {
                             <>
                               {" "}
                               <dt className="text-gray-600 self-start">
-                                Enter Promo Code
+                                Enter Promo Code (OFF15)
                               </dt>
                               <dd className="font-medium text-gray-900">
                                 <input
