@@ -335,7 +335,7 @@ export default function Cart() {
               <div className="mt-6 text-center text-sm text-gray-500">
                 <p>
                   <Link
-                    href="products3"
+                    href="/products"
                     className="font-medium text-black cursor-pointer hover:text-gray-800"
                   >
                     Continue Shopping
