@@ -7,7 +7,7 @@ const Layout = dynamic(() => import("@/components/Layout/Layout"), {
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Toaster />
+      <Toaster position="bottom-right" reverseOrder={false} />
       <Layout>
         <Component {...pageProps} />
       </Layout>

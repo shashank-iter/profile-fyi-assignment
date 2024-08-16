@@ -74,7 +74,7 @@ function Navber() {
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <Dialog.Panel
             focus="true"
-            className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden"
+            className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden z-[9999]"
           >
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
