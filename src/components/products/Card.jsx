@@ -75,7 +75,7 @@ function Card() {
                   </p> */}
                 <p className="text-base font-medium text-gray-900 flex flex-row items-center mt-2">
                   <div className="w-1/2">{"₹ " + product.price}</div>
-                  <div className="flex flex-row w-1/2 justify-end gap-x-3 z-50">
+                  <div className="flex flex-row w-1/2 justify-end gap-x-3 z-30">
                     {isLiked(like, product) ? (
                       <>
                         <Icon

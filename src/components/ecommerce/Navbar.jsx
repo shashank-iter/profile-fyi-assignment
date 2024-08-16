@@ -22,7 +22,7 @@ function Navber() {
   const [cart, setCart] = useCartStore((state) => [state.cart, state.setCart]);
   return (
     <>
-      <div className="px-6 pt-6 pb-4 shadow-lg lg:px-8 bg-black sticky top-0 z-[9999]">
+      <div className="px-6 pt-6 pb-4 shadow-lg lg:px-8 bg-black sticky top-0 z-40">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5 cursor-pointer">

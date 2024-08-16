@@ -17,66 +17,6 @@ import { isInCart, isLiked } from "@/utils/utilityFunctions";
 import { toast } from "react-hot-toast";
 import { Icon } from "@iconify/react";
 
-// const product = {
-//   name: "Zip Tote Basket",
-//   price: "$140",
-//   rating: 4,
-//   images: [
-//     {
-//       id: 1,
-//       name: "Angled view",
-//       src: "https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg",
-//       alt: "Angled front view with bag zipped and handles upright.",
-//     },
-//     // More images...
-//   ],
-//   colors: [
-//     {
-//       name: "Washed Black",
-//       bgColor: "bg-gray-700",
-//       selectedColor: "ring-gray-700",
-//     },
-//     { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
-//     {
-//       name: "Washed Gray",
-//       bgColor: "bg-gray-500",
-//       selectedColor: "ring-gray-500",
-//     },
-//   ],
-//   description: `
-//     <p>The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.</p>
-//   `,
-//   details: [
-//     {
-//       name: "Features",
-//       items: [
-//         "Multiple strap configurations",
-//         "Spacious interior with top zip",
-//         "Leather handle and tabs",
-//         "Interior dividers",
-//         "Stainless strap loops",
-//         "Double stitched construction",
-//         "Water-resistant",
-//       ],
-//     },
-//     // More sections...
-//   ],
-// };
-const relatedProducts = [
-  {
-    id: 1,
-    name: "Zip Tote Basket",
-    color: "White and black",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg",
-    imageAlt:
-      "Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.",
-    price: "$140",
-  },
-  // More products...
-];
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -98,17 +38,12 @@ export default function Example() {
 
   return pid != null ? (
     <div className="bg-white">
-      {/* Mobile menu */}
-
       <header className="relative bg-white"></header>
 
       <main className="mx-auto max-w-7xl sm:px-6 sm:pt-16 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
-          {/* Product */}
           <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
-            {/* Image gallery */}
             <Tab.Group as="div" className="flex flex-col-reverse">
-              {/* Image selector */}
               <div className="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
                 <Tab.List className="grid grid-cols-4 gap-6">
                   {product.images.map((image) => (
@@ -157,7 +92,6 @@ export default function Example() {
               </Tab.Panels>
             </Tab.Group>
 
-            {/* Product info */}
             <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0">
               <h1 className="text-3xl font-bold tracking-tight text-gray-900">
                 {product.name}
@@ -170,7 +104,6 @@ export default function Example() {
                 </p>
               </div>
 
-              {/* Reviews */}
               <div className="mt-3">
                 <h3 className="sr-only">Reviews</h3>
                 <div className="flex items-center">
@@ -200,8 +133,6 @@ export default function Example() {
               </div>
 
               <form className="mt-6">
-                {/* Colors */}
-
                 <div className="mt-10 flex">
                   {isInCart(cart, product) ? (
                     <>

@@ -162,7 +162,7 @@ export default function Cart() {
               </ul>
             </div>
 
-            {/* Order summary */}
+          
             <div className="mt-10 sm:ml-32 sm:pl-6">
               <div className="rounded-lg bg-gray-50 px-4 py-6 sm:p-6 lg:p-8">
                 <h2 className="sr-only">Order summary</h2>
