@@ -210,7 +210,7 @@ export default function Cart() {
                           {enterPromoCode ? (
                             <>
                               {" "}
-                              <dt className="text-gray-600">
+                              <dt className="text-gray-600 self-start">
                                 Enter Promo Code
                               </dt>
                               <dd className="font-medium text-gray-900">
@@ -220,12 +220,12 @@ export default function Cart() {
                                   onChange={(e) => {
                                     setPromoCode(e.target.value);
                                   }}
-                                  className="border border-gray-300 rounded-md px-3 py-1"
+                                  className="border border-gray-300 rounded-md px-3 py-1 w-40"
                                 />
                                 <div className="flex flex-row gap-x-4 justify-end">
                                   <button
                                     type="button"
-                                    className="mt-1 bg-black text-white px-3 py-1 rounded-md"
+                                    className="mt-2 bg-black text-white px-3 py-1 rounded-md"
                                     onClick={() => {
                                       if (
                                         calculatePromoDiscount(
@@ -245,7 +245,7 @@ export default function Cart() {
                                   </button>
                                   <button
                                     type="button"
-                                    className="mt-1 bg-red-600 text-white px-3 py-1 rounded-md"
+                                    className="mt-2 bg-red-600 text-white px-3 py-1 rounded-md"
                                     onClick={() => {
                                       setEnterPromoCode(!enterPromoCode);
                                     }}
