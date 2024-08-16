@@ -43,7 +43,7 @@ export const products = [
     images: [
       {
         id: 1,
-        src: "	https://images.meesho.com/images/products/415937167/oajww_512.webp",
+        src: "https://images.meesho.com/images/products/297536726/qoped_400.webp",
         alt: "Kurti with a touch of Miyazaki.",
       },
     ],
@@ -54,7 +54,7 @@ export const products = [
       },
     ],
     imageSrc:
-      "	https://images.meesho.com/images/products/415937167/oajww_512.webp",
+      "https://images.meesho.com/images/products/297536726/qoped_400.webp",
     imageAlt: "Front of plain black t-shirt.",
   },
   {
@@ -131,12 +131,12 @@ export const products = [
     images: [
       {
         id: 1,
-        src: "https://images.meesho.com/images/products/389616397/cld6t_512.webp",
+        src: "https://images.meesho.com/images/products/229165166/bchqs_512.webp",
         alt: "Casual Kurta with a touch of Miyazaki.",
       },
       {
         id: 2,
-        src: "https://images.meesho.com/images/products/389616397/fxyc3_512.webp",
+        src: "https://images.meesho.com/images/products/229165166/nwdgt_512.webp",
         alt: "Front of plain black t-shirt.",
       },
     ],
@@ -147,7 +147,7 @@ export const products = [
       },
     ],
     imageSrc:
-      "	https://images.meesho.com/images/products/389616397/cld6t_512.webp",
+      "https://images.meesho.com/images/products/229165166/bchqs_512.webp",
     imageAlt: "Casual Kurta with a touch of Miyazaki.",
   },
   {
@@ -193,12 +193,12 @@ export const products = [
     images: [
       {
         id: 1,
-        src: "	https://images.meesho.com/images/products/325100981/uokgq_512.webp",
+        src: "https://images.meesho.com/images/products/436192775/mroe9_512.webp",
         alt: "Georgette Saree with a touch of Miyazaki.",
       },
       {
         id: 2,
-        src: "	https://images.meesho.com/images/products/325100981/dcrk6_512.webp",
+        src: "https://images.meesho.com/images/products/436192775/cvg5l_512.webp",
         alt: "Georgette Saree with a touch of Miyazaki.",
       },
     ],
@@ -209,7 +209,7 @@ export const products = [
       },
     ],
     imageSrc:
-      "	https://images.meesho.com/images/products/325100981/uokgq_512.webp",
+      "https://images.meesho.com/images/products/436192775/mroe9_512.webp",
     imageAlt: "Georgette Saree with a touch of Miyazaki.",
   },
   {
