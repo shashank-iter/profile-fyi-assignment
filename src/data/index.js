@@ -162,12 +162,12 @@ export const products = [
     images: [
       {
         id: 1,
-        src: "https://images.meesho.com/images/products/299935503/moyzk_64.webp",
+        src: "https://images.meesho.com/images/products/425170306/tg1di_512.webp",
         alt: "Feel the festive vibes with this Kurta.",
       },
       {
         id: 2,
-        src: "https://images.meesho.com/images/products/299935503/aeojh_512.webp",
+        src: "https://images.meesho.com/images/products/425170306/9evda_512.webp",
         alt: "Feel the festive vibes with this Kurta.",
       },
     ],
@@ -178,7 +178,7 @@ export const products = [
       },
     ],
     imageSrc:
-      "https://images.meesho.com/images/products/299935503/moyzk_64.webp",
+      "https://images.meesho.com/images/products/425170306/tg1di_512.webp",
     imageAlt: "Festive Kurta with a touch of Miyazaki.",
   },
   {
