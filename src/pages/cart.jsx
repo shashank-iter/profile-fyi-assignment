@@ -307,7 +307,7 @@ export default function Cart() {
                 <p>
                   or{" "}
                   <Link
-                    href="products3"
+                    href="/products"
                     className="font-medium text-black cursor-pointer hover:text-gray-800"
                   >
                     Continue Shopping
